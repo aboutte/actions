@@ -201,7 +201,7 @@ runs:
 
   - name: Set up Docker Buildx
     id: buildx
-    uses: docker/setup-buildx-action@v2
+    uses: docker/setup-buildx-action@v3.0.0
 
   - name: Build Docker Command
     id: docker-command
